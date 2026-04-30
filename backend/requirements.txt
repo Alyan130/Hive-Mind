@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+supabase
+openai-agents
+zep-cloud
+pydantic-settings
+python-dotenv
+httpx

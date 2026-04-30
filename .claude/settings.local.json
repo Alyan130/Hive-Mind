@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:api.anthropic.com)",
+      "Read(//c/Users/User 4/.claude/projects/C--Users-User-4-Documents-AI-project/9e6f0e35-08fe-4668-9cf1-9941fbbfbc89/tool-results/**)",
+      "Bash(gunzip -c \"/c/Users/User 4/.claude/projects/C--Users-User-4-Documents-AI-project/9e6f0e35-08fe-4668-9cf1-9941fbbfbc89/tool-results/webfetch-1777397752192-3vlnbi.bin\")",
+      "Bash(tar -x -O \"ai-project-chat/project/Project Manager AI Chatbot.html\")",
+      "Bash(tar -t)",
+      "Bash(tar -x -O \"ai-project-chat/project/ui-components.jsx\")",
+      "Bash(rm -rf frontend)",
+      "Bash(mkdir frontend:*)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --app --no-src-dir --import-alias \"@/*\" --yes)",
+      "Bash(npm install:*)"
+    ]
+  }
+}
